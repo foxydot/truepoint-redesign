@@ -168,7 +168,6 @@ jQuery(this).attr("src",url+"?wmode=transparent");
 										News &amp; Insights
 									</a>
 								</h3>
-								<div style="height: 10px"></div>
 								<?php if( have_posts() ) {
 									  while( have_posts() ) {
 									    the_post(); ?>   
