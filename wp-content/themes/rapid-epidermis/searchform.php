@@ -1,7 +1,7 @@
 <form role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ) ?>" >
 	<div><label class="screen-reader-text" for="s"><?php echo __('Search for:') ?></label>
 	<input type="text" placeholder="<?php echo esc_attr__('Search')?>" value="<?php echo get_search_query(); echo ( ! empty($_GET['search_string']) ) ? $_GET['search_string'] : NULL;  ?>" name="s" id="s" />
-	<input type="submit" id="searchsubmit" value="<?php echo esc_attr__('Search') ?>" />
+	<input type="submit" id="searchsubmit" value="<?php echo esc_attr__('GO') ?>" />
 	<?php
 	if ( is_category() || is_archive() || is_single() ) {
 		$cat = get_the_category();
