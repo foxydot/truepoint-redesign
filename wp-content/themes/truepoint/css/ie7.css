@@ -1,0 +1,10 @@
+#header-menu ul.sub-menu ul.sub-menu{
+	left:100%;
+	width:215px;
+	/*top:0;*/
+	margin-top:-25px;
+	padding-top:5px;
+	margin-left:10px !important;
+	z-index: 1000 !important;
+	font-size: 10.5px !important;
+}

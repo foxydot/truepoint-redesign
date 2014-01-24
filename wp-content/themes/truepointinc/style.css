@@ -1,0 +1,13 @@
+/*
+Theme Name: Truepoint Inc.
+Theme URI: http://truepointinc.com
+Description: Custom Theme for Truepoint Incorporated
+Version: 1.0
+Author: Atomic Interactive
+Author URI: http://atomicinteractive.com
+Tags: finance, clean
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";

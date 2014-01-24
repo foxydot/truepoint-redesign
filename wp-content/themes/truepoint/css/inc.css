@@ -1,0 +1,72 @@
+#banner {
+	background-image: url('/templates/truepointinc/inc_images/banner_bg.jpg');
+	background-repeat: no-repeat;
+	height: 192px;
+	width: 957px;
+	padding-bottom: 123px;
+}
+
+#banner_links {
+	padding-top: 52px;
+	width: 957px;
+	height: 61px;
+}
+
+#banner_links div{
+	width: 319px;
+	height: 61px;
+	float: left;
+	cursor: pointer;
+}
+
+#banner_links div#family_link {
+	background-image: url('/templates/truepointinc/inc_images/family.jpg');
+	background-repeat: no-repeat;
+	width: 317px;
+}
+
+#banner_links div#family_link:hover {
+	background-image: url('/templates/truepointinc/inc_images/family_over.jpg');
+}
+
+#banner_links div#truepoint_link {
+	background-image: url('/templates/truepointinc/inc_images/capital.jpg');
+	background-repeat: no-repeat;
+	width: 317px;
+}
+
+#banner_links div#truepoint_link:hover {
+	background-image: url('/templates/truepointinc/inc_images/capital_over.jpg');
+}
+
+#banner_links div#truepath_link {
+	background-image: url('/templates/truepointinc/inc_images/financial.jpg');
+	background-repeat: no-repeat;
+	width: 318px;
+}
+
+#banner_links div#truepath_link:hover {
+	background-image: url('/templates/truepointinc/inc_images/financial_over.jpg');
+}
+
+#banner_copy {
+	height: 143px;
+	overflow: hidden;
+	line-height: 20px;
+	color: #000000;
+	padding-left: 665px;
+	padding-top: 56px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+#banner_copy strong {
+	font-weight: normal;
+	font-size: 19px;
+	font-weight: lighter;
+}
+
+.spacer {
+	height: 7px;
+}
