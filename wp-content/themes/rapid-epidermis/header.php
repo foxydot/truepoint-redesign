@@ -39,7 +39,6 @@
 <title><?php wp_title(''); ?></title>
 <link rel="icon" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/favicon.ico" type="image/x-ico" />
 <link rel="shortcut icon" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/favicon.ico" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <!--[if IE 7]>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/css/ie.css" />
 <![endif]-->
@@ -104,7 +103,7 @@
 							<label id="pass_label" onclick="this.innerHTML='';document.getElementById('FormsPassword').focus();">PASSWORD</label>
 							<input type="password" value="" onclick="document.getElementById('pass_label').innerHTML=''" onfocus="document.getElementById('pass_label').innerHTML='';" name="FormsPassword" id="FormsPassword" maxlength="25" /></td>
 							<td></td>
-							<td><input type="submit" value="" id="LPLoginButton" name="LPLoginButton"></td></tr>
+							<td><input type="submit" value="GO" id="LPLoginButton" name="LPLoginButton"></td></tr>
 							</table>
 						</form>
 

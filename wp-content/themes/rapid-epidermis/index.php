@@ -153,15 +153,6 @@ jQuery(this).attr("src",url+"?wmode=transparent");
     		<div class="spacer"></div>
     		<?php echo get_field('financial_text');?>
     		</div>
-
-    		<div id="banner_links">
-    			<div id="family_link">
-    			</div>
-    			<div id="truepoint_link">
-    			</div>
-    			<div id="truepath_link">
-    			</div>
-    		</div>
     	</div>
 
 
@@ -172,11 +163,11 @@ jQuery(this).attr("src",url+"?wmode=transparent");
 						<div class="leftBox">
 							<h1></h1>
 							<div class="news-wrap">
-								<p>
+								<h3>
 									<a href="http://truepointinc.com/in-the-news/">
-										<img title="title_home_news" alt="News &amp; Insights" src="<?php echo get_template_directory_uri(); ?>/images/title_home_news.png" style="margin-left: 32px;" />
+										News &amp; Insights
 									</a>
-								</p>
+								</h3>
 								<div style="height: 10px"></div>
 								<?php if( have_posts() ) {
 									  while( have_posts() ) {
@@ -353,8 +344,8 @@ jQuery(this).attr("src",url+"?wmode=transparent");
 						<div class="leftBox" style="margin-left: 10px; width: 270px; vertical-align: top;">
 
 							<h1></h1>
-              <div><h1><a href="/in-the-news/inside-truepoint"><img title="title_home_events" alt="Calendar of Events" src="<?php echo get_template_directory_uri(); ?>/images/title_home_events.png" height="15" width="212" /></a>
-</h1>
+              <div><h3><a href="/in-the-news/inside-truepoint">Inside Truepoint</a>
+</h3>
 <ul class="scroll">
 <?php $posts=get_posts(array('category'=>3, 'numberposts'=>22));
 	foreach($posts as $p){

@@ -60,7 +60,7 @@ h6 {
 	
 /*Start Drop Shadow Border CSS*/
 .edges {
-	background: url('images/bodyBg.png') 0 0 repeat-y;
+	background: url('../images/bodyBg.png') 0 0 repeat-y;
 	width: 1000px;
 	margin: 0 auto;
 	text-align: left;
@@ -76,7 +76,6 @@ h6 {
 
 /*Start Header CSS*/
 .header {
-	background: #B7A672 url(images/headerBg.gif) no-repeat scroll 0 0;
 	width: 941px;
 	min-height: 40px;
 	overflow: hidden;
@@ -92,7 +91,7 @@ h6 {
 }
 #logo{
 	display:block;
-	background:url(images/site_truepoint_header_logo.png) no-repeat;
+	background:url(../images/site_truepoint_header_logo.png) no-repeat center center;
 	height:70px;
 	width:210px;
 }
@@ -519,17 +518,20 @@ ul#menu li li li.sfHover ul {
 
 
 #banner {
-	background-image: url('images/banner_bg.jpg');
+	background-image: url('../images/banner_bg.jpg');
 	background-repeat: no-repeat;
-	height: 192px;
-	width: 957px;
-	padding-bottom: 123px;
+	height: 255px;
+	width: 952px;
+	padding-bottom: 0;
+	-webkit-border-radius: 12px;
+  border-radius: 12px;
 }
 
 #banner_links {
 	padding-top: 52px;
 	width: 957px;
 	height: 61px;
+	display: none;
 }
 
 #banner_links div{
@@ -540,33 +542,33 @@ ul#menu li li li.sfHover ul {
 }
 
 #banner_links div#family_link {
-	background-image: url('images/family.jpg');
+	background-image: url('../images/family.jpg');
 	background-repeat: no-repeat;
 	width: 317px;
 }
 
 #banner_links div#family_link:hover {
-	background-image: url('images/family_over.jpg');
+	background-image: url('../images/family_over.jpg');
 }
 
 #banner_links div#truepoint_link {
-	background-image: url('images/capital.jpg');
+	background-image: url('../images/capital.jpg');
 	background-repeat: no-repeat;
 	width: 317px;
 }
 
 #banner_links div#truepoint_link:hover {
-	background-image: url('images/capital_over.jpg');
+	background-image: url('../images/capital_over.jpg');
 }
 
 #banner_links div#truepath_link {
-	background-image: url('images/financial.jpg');
+	background-image: url('../images/financial.jpg');
 	background-repeat: no-repeat;
 	width: 318px;
 }
 
 #banner_links div#truepath_link:hover {
-	background-image: url('images/financial_over.jpg');
+	background-image: url('../images/financial_over.jpg');
 }
 
 #banner_copy {
@@ -595,7 +597,7 @@ ul#menu li li li.sfHover ul {
 .tempbody {
 	font-size:12px;color:rgb(148, 148, 148);
 	font-family:;text-transform:;font-weight:normal;text-decoration: none;font-variant : normal;font-style : normal;
-	background:  url(images/site_background_fade.png) ;
+	background:  url(../images/site_background_fade.png) ;
 
 }
 .tempbody a:active {
@@ -676,6 +678,17 @@ td.hcontent3 {
 }
 .contentArea2 {
 	min-height: 306px !important;
+	h3{
+	  a{
+  	  font-weight: bold;
+  	  .customsanserif;
+  	  color: @dkblue;
+  	  font-size: 1.1rem;
+  	  text-transform: uppercase;
+  	  font-weight: bold;
+  	  padding: 0 1.3rem;
+  	}
+	}
 }
 .slider-nav {
 	list-style: none;
@@ -692,7 +705,7 @@ td.hcontent3 {
 	display: block;
 	text-decoration: none;
 	text-indent: -9999px;
-	background: url('images/slider-sprite.gif') no-repeat;
+	background: url('../images/slider-sprite.gif') no-repeat;
 }
 .slider-nav li a.num {
 	background-position: 0 -43px;
@@ -708,9 +721,7 @@ td.hcontent3 {
 	clear: both;
 }
 body {
-  background-image: url(images/site_background_fade.png) !important;
-  background-repeat: repeat-x;
-  background-color: #FFFFFF !important;
+  background-color: #FFFFFF;
 }
 
 textarea, input {
@@ -724,7 +735,6 @@ textarea, input {
 
 
 div.header {
-  background-color: #5d523d !important;
   background-image: none;
   height: 90px;
   width: 211px !important;
@@ -746,11 +756,11 @@ div.mainMenu {
 #logoNav { height: 61px; }
 #LogoNav a, #LogoNav img { float: left; border: none; }
 #LogoNav a { height: 61px; }
-#LogoNav a.tpfo { width: 175px; background: transparent url(images/logo-nav-tpfo-sprite.png) no-repeat 0px 0px; }
+#LogoNav a.tpfo { width: 175px; background: transparent url(../images/logo-nav-tpfo-sprite.png) no-repeat 0px 0px; }
 #LogoNav a.tpfo:hover { background-position: 0px -61px; }
-#LogoNav a.tpc { width: 175px; background: transparent url(images/logo-nav-tpc-sprite.png) no-repeat 0px 0px; }
+#LogoNav a.tpc { width: 175px; background: transparent url(../images/logo-nav-tpc-sprite.png) no-repeat 0px 0px; }
 #LogoNav a.tpc:hover { background-position: 0px -61px; }
-#LogoNav a.tpf { width: 170px; background: transparent url(images/logo-nav-tpf-sprite.png) no-repeat 0px 0px; }
+#LogoNav a.tpf { width: 170px; background: transparent url(../images/logo-nav-tpf-sprite.png) no-repeat 0px 0px; }
 #LogoNav a.tpf:hover { background-position: 0px -61px; }
 
 div.mainMenu ul#menu {
@@ -831,7 +841,7 @@ div.contentArea2 table, div.contentArea2 {
 td.hcontent3 {
   height: 238px;
   width: 635px;
- /* background-image: url(images/pop_news_background.png) !important;*/
+ /* background-image: url(../images/pop_news_background.png) !important;*/
   background-repeat: no-repeat;
 }
 td.hcontent3 div.leftBox {
@@ -871,7 +881,7 @@ td.hcontent4 {
 }
 td.hcontent5 {
   width: 317px;
-  background-image: url(images/pop_events_background.png) !important;
+  background-image: url(../images/pop_events_background.png) !important;
   background-repeat: no-repeat;
 }
 td.hcontent5 h1 {
@@ -903,7 +913,7 @@ div.footer-nav {
   background-image: none;
 }
 div.footer {
-  background-image: url(images/site_footer_background.png) !important;
+  background-image: url(../images/site_footer_background.png) !important;
   background-repeat: no-repeat;
   width: 952px;
   overflow: hidden;
@@ -929,7 +939,7 @@ div.footer ul li.divider {
   color: #e36f1e;
 }
 div.footer ul li a:link, div.footer ul li a:visited {
-  color: #b09438;
+  color: @medgrey;
   font-size: 11px;
   text-decoration: none;
 }
@@ -985,7 +995,7 @@ td.subMenu ul.sub-menu, td.subMenu .right-box ul
   font-family: Verdana, Arial, Helvetica, Sans-Serif;
   font-size: 12px;
   border-bottom: solid 1px #fff;
-  border-top: solid 1px #d1c9b2;
+  border-top: solid 1px @medgrey;
   list-style: none;
   list-style-image: none;
 	background-color: transparent;
@@ -1007,7 +1017,7 @@ td.subMenu ul.sub-menu li, td.subMenu .right-box ul li
 	background-color: transparent;
 	text-align: left;
 	width: 169px;
-  background: transparent url(images/bullet_news.png) no-repeat 2px 14px;
+  background: transparent url(../images/bullet_news.png) no-repeat 2px 14px;
 }
 td.subMenu .right-box ul li, 
 td.subMenu .right-box ul li a {
@@ -1069,7 +1079,7 @@ td.subMenu ul.sub-menu ul.third-menu{
 	display:none;
 	position:absolute;
 	margin-left:-20px;
-	background-color:#5D523D;
+	background-color:@ltgrey;
 	padding-top:5px;
 	padding-right:20px;
 	padding-bottom:5px;
@@ -1094,11 +1104,11 @@ td.subMenu ul.sub-menu ul.third-menu{
 	width:100%;
 }
 #header-menu ul.sub-menu li a{
-	color:white;
+	color:@medgrey;
 	z-index: 10;
 }
 #header-menu ul.sub-menu li a:hover{
-	color:#CBB677;
+	color:@dkblue;
 }
 #header-menu li:hover>ul{
 	display:block;
@@ -1125,7 +1135,7 @@ td.subMenu ul.sub-menu ul.third-menu{
 
 .scroll {
   overflow: auto;
-  height: 170px;
+  height: 190px;
   padding-right: 15px;
 }
 
@@ -1141,7 +1151,7 @@ td.subMenu ul.sub-menu ul.third-menu{
 	padding-top: 1px;
 	border: none;
 	margin-right: 5px;
-	background: url("images/client_form.jpg") no-repeat;
+	background: @ltgrey;
 	width: 113px;
 	height: 19px;
 	color: #444037;
@@ -1163,7 +1173,9 @@ td.subMenu ul.sub-menu ul.third-menu{
 	margin: 0px;
 	padding: 0px;
 	border: none;
-	background: url("images/client_go.jpg") no-repeat;
+	background: @orange;
+	text-transform: uppercase;
+	color: @white;
 	width: 23px;
 	height: 19px;
 }
@@ -1207,20 +1219,25 @@ td.subMenu ul.sub-menu ul.third-menu{
 	font-weight: normal;
 	z-index: 10;
 }
-#MainNav .menu li{
-	float:left;
-	margin-left:20px;
-	font-size:12px;
-	font-weight:normal;
+#MainNav{
+  ul{
+    li{ 
+      float:left;
+      margin-left:20px;
+      font-size:12px;
+      font-weight:normal;
+      a{
+        color:@dkblue;
+        text-decoration:none;
+        font-weight: normal;
+        font-family:Lucida Grande, Trebuchet MS, Tahoma, sans;
+      }
+    }
+  }
 }
-#MainNav li a{
-	color:white;
-	text-decoration:none;
-	font-weight: normal;
-	font-family:Lucida Grande, Trebuchet MS, Tahoma, sans;
-}
+
 #MainNav li a:hover, #MainNav li.current-menu-item a, #MainNav li.current-page-ancestor a{
-	color:#CBB677;
+	color:@orange;
 }
 
 .alignleft{
@@ -1375,7 +1392,7 @@ td.subMenu ul.sub-menu ul.third-menu{
 }
 #header-search input[type="submit"] {
 	border: none;
-	background: url('images/header-search-icon.png') no-repeat;
+	background: url('../images/header-search-icon.png') no-repeat;
 	text-indent: -9999px;
 	width: 10px;
 	height: 10px;
@@ -1390,7 +1407,7 @@ td.subMenu ul.sub-menu ul.third-menu{
 	padding: 0 17px 0 6px;
 	width: 70px;
 	height: 19px;
-	background: url('images/header-search-bg.jpg') no-repeat;
+	background: @ltgrey;
 	font-size: 10px;
 	font-family: Arial, sans-serif;
 	color: #444037;
