@@ -889,7 +889,7 @@ td.hcontent3 ul li:first-child {
   border-top: none;
 }
 td.hcontent3 ul li {
-  list-style-image: url("images/bullet_news.png");
+  list-style-image: url("../images/bullet_news.png");
   font-family: verdana;
   font-size: 11px !important;
   line-height: 30px;
@@ -1148,11 +1148,11 @@ td.subMenu ul.sub-menu ul.third-menu {
 }
 .jScrollPaneTrack {
   width: 12px !important;
-  background: transparent url("images/scroll-slider-bg.png") repeat-y !important;
+  background: transparent url("../images/scroll-slider-bg.png") repeat-y !important;
 }
 .jScrollPaneDrag {
   width: 12px !important;
-  background: transparent url("images/scroll-ball.png") no-repeat 1px 0 !important;
+  background: transparent url("../images/scroll-ball.png") no-repeat 1px 0 !important;
   height: 11px !important;
 }
 .scroll {
@@ -1325,7 +1325,7 @@ td.subMenu ul.sub-menu ul.third-menu {
   font-size: 16px;
 }
 .car-yearmonth {
-  background: url("images/bullet_news.png") no-repeat scroll 2px 14px transparent;
+  background: url("../images/bullet_news.png") no-repeat scroll 2px 14px transparent;
   border-bottom: 1px solid #D1C9B2;
   border-top: 1px solid #FFFFFF;
   color: #CC6600;
@@ -1360,7 +1360,7 @@ td.subMenu ul.sub-menu ul.third-menu {
 .search-form input[type="text"] {
   width: 143px;
   float: left;
-  background: url("images/input-bg.png") repeat-x scroll 0 0 transparent;
+  background: url("../images/input-bg.png") repeat-x scroll 0 0 transparent;
   border: medium none;
   color: #444037;
   font-size: 10px;
@@ -1377,7 +1377,7 @@ td.subMenu ul.sub-menu ul.third-menu {
 }
 .search-form input[type="submit"] {
   float: right;
-  background: url("images/client_go.jpg") no-repeat scroll 0 0 transparent;
+  background: url("../images/client_go.jpg") no-repeat scroll 0 0 transparent;
   border: medium none;
   height: 19px;
   margin: 0;
@@ -1459,7 +1459,7 @@ td.subMenu ul.sub-menu ul.third-menu {
   width: auto !important;
 }
 .slider-nav-news li a {
-  background: url("images/slider-sprite.gif") no-repeat scroll 0 0 transparent;
+  background: url("../images/slider-sprite.gif") no-repeat scroll 0 0 transparent;
   display: block;
   height: 15px;
   text-decoration: none;
