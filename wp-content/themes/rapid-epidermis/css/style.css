@@ -598,10 +598,15 @@ a:visited {
   font-weight: lighter;
   width: 270px;
 }
+#banner_copy .link {
+  margin-top: 0.6rem;
+}
 #banner_copy strong {
-  font-weight: normal;
-  font-size: 19px;
+  font-size: 21px;
   font-weight: lighter;
+  font-family: 'Raleway', Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  color: #346195;
 }
 .spacer {
   height: 7px;

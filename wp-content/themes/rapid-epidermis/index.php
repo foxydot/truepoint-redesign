@@ -118,6 +118,7 @@ jQuery(this).attr("src",url+"?wmode=transparent");
     		<?php endif; ?>
     		<div class="spacer"></div>
     		<?php echo get_field('default_text');?>
+            <div class="link"><a href="/firm-profile/">Learn More &raquo;</a></div>
     	</div>
     	<div id="base" style="display: none;">
 			<strong><?php echo get_field('default_title');?></strong>
