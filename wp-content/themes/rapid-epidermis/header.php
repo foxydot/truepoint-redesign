@@ -37,10 +37,10 @@
 
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php wp_title(''); ?></title>
-<link rel="icon" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/favicon.ico" type="image/x-ico" />
-<link rel="shortcut icon" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/favicon.ico" />
+<link rel="icon" href="<?php print get_stylesheet_directory_uri(); ?>/images/favicon.ico" type="image/x-ico" />
+<link rel="shortcut icon" href="<?php print get_stylesheet_directory_uri(); ?>/images/favicon.ico" />
 <!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('url') ?>/wp-content/themes/truepoint/css/ie.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="<?php print get_stylesheet_directory_uri(); ?>/css/ie.css" />
 <![endif]-->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
