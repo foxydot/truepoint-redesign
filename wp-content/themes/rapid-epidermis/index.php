@@ -262,6 +262,7 @@ jQuery(this).attr("src",url+"?wmode=transparent");
 					</td>
 					
 					<td class="hcontent5">
+					    <?php /*
 						<script type="text/javascript">
 							jQuery(document).ready( function($) {
 								$(".scroll li:odd").addClass("even");
@@ -362,6 +363,9 @@ jQuery(this).attr("src",url+"?wmode=transparent");
   <br /></li>
 </ul></div>
             </div>
+                         * */ ?>
+                         
+                         <?php dynamic_sidebar('homepage-widget-area'); ?>
 					
 					</td>
 				</tr>

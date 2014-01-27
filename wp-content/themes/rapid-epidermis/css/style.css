@@ -469,6 +469,24 @@ a:visited {
   width: 275px;
   min-height: 305px;
 }
+.hcontent5 .widget-container {
+  padding: 1.4rem 1rem;
+  color: #766F62;
+  font-family: Verdana, sans-serif;
+  font-size: 10px;
+  line-height: 18px;
+}
+.hcontent5 .widget-container h3 {
+  font-family: 'Raleway', Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  color: #222c64;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 1.3rem;
+  margin: 0;
+  padding: 0;
+}
 /*End Content CSS*/
 /*Start footer CSS*/
 .footer {
