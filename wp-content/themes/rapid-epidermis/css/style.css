@@ -1130,7 +1130,7 @@ td.subMenu ul.sub-menu ul.third-menu {
   display: none;
   position: absolute;
   margin-left: -20px;
-  background-color: #dadfe1;
+  background-color: #ffffff;
   padding-top: 5px;
   padding-right: 20px;
   padding-bottom: 5px;
@@ -1155,11 +1155,11 @@ td.subMenu ul.sub-menu ul.third-menu {
   width: 100%;
 }
 #header-menu ul.sub-menu li a {
-  color: #7c858c;
+  color: #222c64;
   z-index: 10;
 }
 #header-menu ul.sub-menu li a:hover {
-  color: #222c64;
+  color: #de641f;
 }
 #header-menu li:hover > ul {
   display: block;
