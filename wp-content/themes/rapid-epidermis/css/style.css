@@ -389,14 +389,12 @@ a:visited {
 }
 /*RIGHT BAR*/
 .contentArea2 a {
-  font-size: 14px;
   font-weight: normal;
   color: #de641f;
   text-decoration: none;
 }
 .contentArea2 a:active,
 a:visited {
-  font-size: 14px;
   font-weight: normal;
   color: #de641f;
   text-decoration: none;
