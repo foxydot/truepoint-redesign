@@ -245,7 +245,7 @@ jQuery(this).attr("src",url+"?wmode=transparent");
 								</script>
 							</div>
 							<div class="video">
-								<iframe width="200" style="z-index:1" height="112" src="<?php the_field( 'youtube_link', 'options' ) ?>?rel=0&showinfo=0?wmode=transparent" frameborder="0" wmode="transparent"></iframe>
+								<iframe width="200" style="z-index:1" height="112" src="<?php the_field( 'youtube_link', 'options' ) ?>?rel=0&showinfo=0&wmode=transparent" frameborder="0" wmode="transparent"></iframe>
 
 								
 								<p class="desc">
