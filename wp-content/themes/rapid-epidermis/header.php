@@ -39,9 +39,6 @@
 <title><?php wp_title(''); ?></title>
 <link rel="icon" href="<?php print get_stylesheet_directory_uri(); ?>/images/favicon.ico" type="image/x-ico" />
 <link rel="shortcut icon" href="<?php print get_stylesheet_directory_uri(); ?>/images/favicon.ico" />
-<!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" media="all" href="<?php print get_stylesheet_directory_uri(); ?>/css/ie.css" />
-<![endif]-->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	/* We add some JavaScript to pages with the comment form
@@ -58,6 +55,15 @@
 	 wp_enqueue_script( 'jquery' );
 	wp_head();
 ?>
+<!--[if IE]>
+<![endif]-->
+<!--[if lte IE 8]>   
+    <link rel="stylesheet" type="text/css" media="all" href="<?php print get_stylesheet_directory_uri(); ?>/css/ie.css" />
+
+<![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php print get_stylesheet_directory_uri(); ?>/css/ie7.css" />
+<![endif]-->
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/jquery-ui-1.8.16.custom.css" type="text/css" />
 <style type="text/css" title="">
@@ -111,8 +117,8 @@
 				
 			<div class="header tempheader">
 				<div style="width: 100%;">
-					<div style="float: left; overflow: hidden; padding-top:10px;">
-						<a href="<?php echo home_url( '/' ); ?>" style="text-decoration: none;" id="logo">
+					<div style="float: left;">
+						<a href="<?php echo home_url( '/' ); ?>" id="logo">
 						</a>
 					</div>
 					
